@@ -58,7 +58,7 @@
     //====== Responsive menu button ========
     //======================================
     $(function(){
-      $('.resp-bar > i').click(function(){
+      $('.resp-bar > i').on('click', function(){
         $('.nav-bar').slideToggle(300);
       });
         
